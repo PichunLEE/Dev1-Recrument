@@ -1,9 +1,25 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    margin: 0;
+    font-family: 'Reboto', sans-serif;
+    
+ }
+ 
+ @media (max-width:375px) {
+     #infos_mid{
+         display: flex;
+         flex-direction: column;
+     }
  }
 
+ body{
+     display: block;
+ }
+
+ #infos_mid{
+    display: flex;
+    flex-direction: row;
+}
    
 
  
@@ -11,15 +27,19 @@
     background:url("fond1intro.jpg") no-repeat center center;
     background-size: cover;
     text-align: center;
+    -webkit-filter: brightness(50%);
     
 }
 
 .container{
+    color: whitesmoke;
+    -webkit-filter: brightness(100%);
     max-width: 600px;
-    color: black;
-    padding-top: 150px;
-    margin: auto;
-}
+    padding-top: 50px;
+      margin: auto;
+  
+  }
+
 
 
 /* merge 2 parti */
@@ -42,7 +62,7 @@
 
 .carre{
   padding-left: 20px;
-    color: black;
+    color:gray;
   
 }
 
@@ -52,4 +72,23 @@
     padding-left: 100px;
     padding-top: 100px;
     
+}
+
+.question{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.finbutton
+{
+    padding: 10cm;
+    color: #ffb400;
+}
+
+
+.choosefile
+{
+    padding-left: 10px;
+
 }
